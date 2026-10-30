@@ -1,0 +1,220 @@
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 0/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 3
+
+--- LISTA DE ESTUDIANTES ---
+  No hay estudiantes registrados todavía.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 0/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 1001
+Nombre completo: ana maría pérez
+Edad (14-99): 19
+Programa académico: software
+  [OK] Estudiante 'Ana María Pérez' registrado. (Vaya al menú de notas para calificar).
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 1/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 2
+
+---------------------------------------------
+   SUBMENÚ: GESTIÓN DE NOTAS
+---------------------------------------------
+  1. Buscar estudiante y agregar nota
+  2. Volver al menú principal
+---------------------------------------------
+Seleccione una opción: 1
+
+  Ingrese el ID del estudiante para calificar: 1001
+  >> Estudiante encontrado: Ana María Pérez
+  Ingrese nueva nota (0.0-5.0): 4.6
+  [OK] Nota 4.6 añadida. Total de notas: 1
+  ¿Desea ingresar otra nota para este estudiante? (S/N): S
+  Ingrese nueva nota (0.0-5.0): 5.0
+  [OK] Nota 5.0 añadida. Total de notas: 2
+  ¿Desea ingresar otra nota para este estudiante? (S/N): N
+
+---------------------------------------------
+   SUBMENÚ: GESTIÓN DE NOTAS
+---------------------------------------------
+  1. Buscar estudiante y agregar nota
+  2. Volver al menú principal
+---------------------------------------------
+Seleccione una opción: 2
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 1/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): abc
+  [!] 'abc' no es un número entero válido.
+ID del estudiante (1 - 999999): 1002
+Nombre completo: 
+  [!] Este campo no puede quedar vacío.
+Nombre completo: Carlos Gómez
+Edad (14-99): 150
+  [!] El valor debe estar entre 14 y 99.
+Edad (14-99): 22
+Programa académico: Industrial
+  [OK] Estudiante 'Carlos Gómez' registrado. (Vaya al menú de notas para calificar).
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 2
+
+---------------------------------------------
+   SUBMENÚ: GESTIÓN DE NOTAS
+---------------------------------------------
+  1. Buscar estudiante y agregar nota
+  2. Volver al menú principal
+---------------------------------------------
+Seleccione una opción: 1
+
+  Ingrese el ID del estudiante para calificar: 1002
+  >> Estudiante encontrado: Carlos Gómez
+  Ingrese nueva nota (0.0-5.0): 2.8
+  [OK] Nota 2.8 añadida. Total de notas: 1
+  ¿Desea ingresar otra nota para este estudiante? (S/N): N
+
+---------------------------------------------
+   SUBMENÚ: GESTIÓN DE NOTAS
+---------------------------------------------
+  1. Buscar estudiante y agregar nota
+  2. Volver al menú principal
+---------------------------------------------
+Seleccione una opción: 2
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 1001
+  [!] Ya existe un estudiante con ID 1001. Cancelado.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 3
+
+--- LISTA DE ESTUDIANTES ---
+Orden: 1) Ascendente  2) Descendente: 1
+  ID         NOMBRE                       EDAD   PROGRAMA               PROM.
+  ---------------------------------------------------------------------------
+  1001       Ana María Pérez                19   Software                4.80
+  1002       Carlos Gómez                   22   Industrial              2.80
+  ---------------------------------------------------------------------------
+  Total: 2 | Promedio General: 3.80 | Aprobados (>=3.0): 1 | Reprobados: 1
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 4
+
+--- BUSCAR ESTUDIANTE POR ID ---
+ID a buscar: 1001
+  [OK] Estudiante encontrado:
+  ID         NOMBRE                       EDAD   PROGRAMA               PROM.
+  ---------------------------------------------------------------------------
+  1001       Ana María Pérez                19   Software                4.80
+  Notas registradas: [4.6, 5.0]
+  Desempeño: SUPERIOR
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 4
+
+--- BUSCAR ESTUDIANTE POR ID ---
+ID a buscar: 9999
+  [X] No existe ningún estudiante con ID 9999.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante (Datos básicos)
+  2. Menú de Notas (Asignar calificaciones)
+  3. Mostrar todos los estudiantes
+  4. Buscar estudiante por ID
+  5. Salir
+---------------------------------------------
+Seleccione una opción: 5
+
+¿Seguro que desea salir del sistema? (S/N): S
+
+Sesión finalizada. Estudiantes registrados: 2. ¡Hasta pronto!
