@@ -1,0 +1,266 @@
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 0/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 2
+
+--- LISTA DE ESTUDIANTES ---
+  No hay estudiantes registrados todavía.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 0/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 1001
+Nombre completo: ana maría pérez
+Edad (14-99): 19
+Programa académico: ingeniería de software
+Nota promedio (0.0-5.0): 4.6
+  [OK] Estudiante 'Ana María Pérez' registrado. Total: 1/50
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 1/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): abc
+  [!] 'abc' no es un número entero válido. Intente de nuevo.
+ID del estudiante (1 - 999999): 1002
+Nombre completo: 
+  [!] Este campo no puede quedar vacío.
+Nombre completo: Carlos Gómez
+Edad (14-99): 150
+  [!] El valor debe estar entre 14 y 99.
+Edad (14-99): 22
+Programa académico: Ingeniería Industrial
+Nota promedio (0.0-5.0): 2,8
+  [OK] Estudiante 'Carlos Gómez' registrado. Total: 2/50
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 1003
+Nombre completo: Laura Rincón
+Edad (14-99): 20
+Programa académico: Psicología
+Nota promedio (0.0-5.0): 3.9
+  [OK] Estudiante 'Laura Rincón' registrado. Total: 3/50
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 1001
+  [!] Ya existe un estudiante con ID 1001. Registro cancelado.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 2
+
+--- LISTA DE ESTUDIANTES ---
+Orden de registro: 1) Ascendente  2) Descendente: 1
+  ID         NOMBRE                       EDAD   PROGRAMA                NOTA
+  ---------------------------------------------------------------------------
+  1001       Ana María Pérez                19   Ingeniería De Software  4.60
+  1002       Carlos Gómez                   22   Ingeniería Industrial   2.80
+  1003       Laura Rincón                   20   Psicología              3.90
+  ---------------------------------------------------------------------------
+  Total estudiantes: 3   Promedio general: 3.77   Aprobados (>=3.0): 2   Reprobados: 1
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 2
+
+--- LISTA DE ESTUDIANTES ---
+Orden de registro: 1) Ascendente  2) Descendente: 2
+  ID         NOMBRE                       EDAD   PROGRAMA                NOTA
+  ---------------------------------------------------------------------------
+  1003       Laura Rincón                   20   Psicología              3.90
+  1002       Carlos Gómez                   22   Ingeniería Industrial   2.80
+  1001       Ana María Pérez                19   Ingeniería De Software  4.60
+  ---------------------------------------------------------------------------
+  Total estudiantes: 3   Promedio general: 3.77   Aprobados (>=3.0): 2   Reprobados: 1
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 3
+
+--- BUSCAR ESTUDIANTE POR ID ---
+ID a buscar: 1002
+  [OK] Estudiante encontrado:
+  ID         NOMBRE                       EDAD   PROGRAMA                NOTA
+  ---------------------------------------------------------------------------
+  1002       Carlos Gómez                   22   Ingeniería Industrial   2.80
+  Desempeño: EN RIESGO ACADÉMICO
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 3
+
+--- BUSCAR ESTUDIANTE POR ID ---
+ID a buscar: 9999
+  [X] No existe ningún estudiante con ID 9999.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 7
+  [!] El valor debe estar entre 1 y 4.
+Seleccione una opción: 4
+¿Seguro que desea salir? (S/N): N
+  Regresando al menú...
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 3/50
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 4
+¿Seguro que desea salir? (S/N): S
+
+Sesión finalizada. Estudiantes registrados: 3. ¡Hasta pronto!
+
+
+===== PRUEBA DE CAPACIDAD (MAX_ESTUDIANTES = 2) =====
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 0/2
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 1
+Nombre completo: Ana
+Edad (14-99): 18
+Programa académico: Derecho
+Nota promedio (0.0-5.0): 4
+  [OK] Estudiante 'Ana' registrado. Total: 1/2
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 1/2
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+ID del estudiante (1 - 999999): 2
+Nombre completo: Luis
+Edad (14-99): 19
+Programa académico: Medicina
+Nota promedio (0.0-5.0): 3.5
+  [OK] Estudiante 'Luis' registrado. Total: 2/2
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/2
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 1
+
+--- AGREGAR ESTUDIANTE ---
+  [!] Capacidad máxima alcanzada (2). No se puede agregar.
+
+=============================================
+   SISTEMA DE GESTIÓN DE ESTUDIANTES (SGE)
+=============================================
+  Registrados: 2/2
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Salir
+---------------------------------------------
+Seleccione una opción: 4
+¿Seguro que desea salir? (S/N): S
+
+Sesión finalizada. Estudiantes registrados: 2. ¡Hasta pronto!
